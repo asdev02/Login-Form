@@ -1,0 +1,54 @@
+@import url('https://css.gg/boy.css');
+@import url('https://css.gg/mail.css');
+@import url('https://css.gg/password.css');
+@import url('https://css.gg/log-in.css');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url("style.jpg") no-repeat;
+  background-size: cover;
+}
+
+.login{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px 0;
+  opacity: 0.5;
+  box-shadow: 0 0 10px #000;
+}
+
+.login h1{
+  font-family: sans-serif;
+  color: darkGray;
+  border-bottom: 6px solid LightSkyBlue;
+  text-align: center;
+}
+
+.text p{
+  font-family: fantasy;
+  font-size: 20px;
+  color: LightSkyBlue;
+}
+
+.text input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  border-bottom: 3px solid LightSkyBlue;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid LightSteelBlue;
+  color: white;
+  padding: 5px;
+  margin: 12px 0;
+  cursor: pointer;
+}
